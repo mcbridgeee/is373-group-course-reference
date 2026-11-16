@@ -8,7 +8,7 @@ Each member records their own work with links (commits, issues, pull requests, r
 
 | Stage | What I did | Links |
 | --- | --- | --- |
-| Plan | Created the repository; drafted the concept, sources, two-approach comparison, retrieval choice, source trace, stories and proposed owner/reviewer split | |
+| Plan | Created the repository; drafted the concept, sources, two-approach comparison, retrieval choice, source trace, stories, evaluation set and proposed owner/reviewer split | [plan](plan.md) · [commits](https://github.com/mcbridgeee/is373-group-course-reference/commits/main/?author=mcbridgeee) |
 
 ## Ann
 
