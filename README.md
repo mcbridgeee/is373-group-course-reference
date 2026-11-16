@@ -22,6 +22,7 @@ This repository is our one shared record for Plan, Build, Checked Release and Im
 | Workflow and one source traced | [Workflow](docs/plan.md#workflow-and-one-source-traced) | proposed |
 | Success criteria | [Criteria](docs/plan.md#success-criteria) | proposed |
 | Stories and checks | [Stories](docs/plan.md#stories-and-checks) | proposed |
+| Evaluation set | [Evaluation](docs/plan.md#evaluation-set) | proposed |
 | Owners and reviewers | [Owners](docs/plan.md#owners-and-reviewers) | proposed |
 | Each member's contribution | [Contributions](docs/contributions.md) | in progress |
 

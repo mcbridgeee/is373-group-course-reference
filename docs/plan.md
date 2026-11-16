@@ -97,6 +97,19 @@ course source (S0x, URL, date)
 | 4 | As a reviewer, I want to edit or reject a draft, so bad AI output is fixed or removed | Edited text is what gets published; rejected drafts never appear | planned |
 | 5 | As the team, we want re-importing a source to skip unchanged content, so the queue isn't flooded with duplicates | Importing S01 twice adds no new drafts | planned |
 
+## Evaluation set
+
+Planned student questions, written before anything is built. Expected sources are predictions to check once entries exist.
+
+| # | Type | Student question | Expected entry / source | Expected behavior | Status |
+| --- | --- | --- | --- | --- | --- |
+| E1 | Exact term | `git commit -m` | Git commit entry · S01 §3 | Finds the entry by its exact command | planned |
+| E2 | Paraphrase | How do I save my changes with a message? | Git commit entry · S01 §3 | Finds the same entry with no shared command words; keyword search expected to miss it | planned |
+| E3 | Related terms | What does Traefik have to do with Docker? | Traefik glossary entry and its reviewed related-term link · S02 | Shows the Traefik entry and links to the Docker entry | planned |
+| E4 | Ordinary useful | What is chunking? | Chunking glossary entry · S05 | Plain-English meaning with a source link | planned |
+| E5 | Not covered | How do I deploy to AWS? | none | Says the course material doesn't cover it; doesn't invent an entry | planned |
+| E6 | Review gate | Search for a term whose entry is still a draft | none publicly | Draft does not appear until a reviewer approves it | planned |
+
 ## Owners and reviewers
 
 _Proposed; Ann and Dhruvi to confirm or change._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
@@ -112,3 +125,8 @@ _Proposed; Ann and Dhruvi to confirm or change._ We are a team of three; the bri
 
 - Confirm with Professor Williams that his course sites and repos can be used as sources, and that a team of three is OK.
 - Hosting: on one member's existing server, or both? (decide by Build)
+
+## Help received
+
+- AI: Claude helped draft this plan's structure, compare approaches and check that the sources exist. The team reviews and owns the decisions.
+- People: none yet. A peer walkthrough of the source trace is planned for the Nov 17/19 workshop.
