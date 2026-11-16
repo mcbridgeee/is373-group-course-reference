@@ -6,7 +6,7 @@
 
 - **Changed (Plan, Nov 16):** proposed the course reference concept, sources, workflow, retrieval approach, stories and owner/reviewer split.
 - **Checked:** confirmed the five planned sources exist and are readable, and that the survival guide contains copyable commands with explanations (used for the trace below). Nothing has been built or run yet.
-- **Next:** both members confirm or change the proposed decisions; ask a peer to follow the source trace and question one assumption; record it in the peer feedback log.
+- **Next:** all three members confirm or change the proposed decisions; ask a peer to follow the source trace and question one assumption; record it in the peer feedback log.
 
 ## Reader, problem and research question
 
@@ -99,16 +99,16 @@ course source (S0x, URL, date)
 
 ## Owners and reviewers
 
-_Proposed; Ann to confirm or change._
+_Proposed; Ann and Dhruvi to confirm or change._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
 
 | Slice | Owner | Reviewer |
 | --- | --- | --- |
 | Source import, source tracking, duplicate checks (stories 2, 5) | Ann | Bridget |
-| Draft generation, review queue and publishing (stories 3, 4) | Bridget | Ann |
-| Search and the student-facing reference (story 1) | Bridget | Ann |
-| Architecture choice, integration, evaluation and demo | Both, with named work | Cross-review + another real peer |
+| AI drafting: entry format, prompts, quality of drafts against sources | Dhruvi | Ann |
+| Review queue, publishing, and the student-facing reference and search (stories 1, 3, 4) | Bridget | Dhruvi |
+| Architecture choice, integration, evaluation and demo | All three, with named work | Cross-review + another real peer |
 
 ## Open questions
 
-- Confirm with Professor Williams that his course sites and repos can be used as sources.
+- Confirm with Professor Williams that his course sites and repos can be used as sources, and that a team of three is OK.
 - Hosting: on one member's existing server, or both? (decide by Build)

@@ -15,3 +15,9 @@ Each member records their own work with links (commits, issues, pull requests, r
 | Stage | What I did | Links |
 | --- | --- | --- |
 | Plan | | |
+
+## Dhruvi
+
+| Stage | What I did | Links |
+| --- | --- | --- |
+| Plan | | |
