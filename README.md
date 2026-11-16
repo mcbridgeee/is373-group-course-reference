@@ -2,7 +2,7 @@
 
 IS373-001, Fall 2026 · Deliverable 3: group content system + problem research.
 
-**Team:** Bridget McTiernan · Ann (last name / GitHub: _to add_) · Dhruvi (last name / GitHub: _to add_)
+**Team:** Bridget McTiernan · Ann Carlos / GitHub: apink634 · Dhruvi (last name / GitHub: _to add_)
 
 A tool that turns the IS373 course material spread across Canvas, course sites and GitHub repos into a reviewed, searchable reference: a **command cheat sheet** (command, what it does, why you'd use it) and a **glossary** (term, plain-English meaning, related terms). AI drafts each entry from the course sources, a teammate reviews and approves it, and only approved entries are published, each linked to the page it came from.
 
