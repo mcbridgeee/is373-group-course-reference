@@ -95,7 +95,7 @@ course source (S0x, URL, date)
 - Every published entry links to the source section it came from.
 - No entry is visible to students until a reviewer approves it.
 - A student can find the right entry for a question asked in their own words.
-- Re-importing an unchanged source creates no duplicate entries.
+- Re-importing an unchanged source creates no duplicate entries, and re-importing a changed source tells the person which sections changed.
 
 ## Stories and checks
 
@@ -105,7 +105,7 @@ course source (S0x, URL, date)
 | 2 | As a student, I want each entry linked to its source, so I can read the original | Every published entry has a working source link | planned |
 | 3 | As a reviewer, I want drafts held until I approve them, so wrong entries never reach students | A draft is not visible on the public reference until approved | planned |
 | 4 | As a reviewer, I want to edit or reject a draft, so bad AI output is fixed or removed | Edited text is what gets published; rejected drafts never appear | planned |
-| 5 | As the team, we want re-importing a source to skip unchanged content, so the queue isn't flooded with duplicates | Importing S01 twice adds no new drafts | planned |
+| 5 | As the team, we want re-importing a source to skip unchanged content and tell us when content changed, so the queue isn't flooded with duplicates and real changes aren't missed | Each imported section stores a hash of its text. Importing S01 twice in a row adds no new drafts and reports "no changes." Editing one section in a test copy of S01 and re-importing reports that one section as changed and sends only its entries back to review. ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) | planned |
 
 ## Evaluation set
 
@@ -119,6 +119,7 @@ Planned student questions, written before anything is built. Expected sources ar
 | E4 | Ordinary useful | What is chunking? | Chunking glossary entry · S05 | Plain-English meaning with a source link | planned |
 | E5 | Not covered | How do I deploy to AWS? | none | Passes if the UI shows “No matching entry in the course reference” and displays zero results. | planned |
 | E6 | Review gate | Search for a term whose entry is still a draft | none publicly | Draft does not appear until a reviewer approves it | planned |
+| E7 | Re-import | Import S01, import it again unchanged, then import a test copy with one section edited | Same S01 entries · no new drafts on the second import | Second import reports "no changes" and adds zero drafts; third import reports exactly one changed section and queues only that section's entries for review | planned |
 
 ## Owners and reviewers
 
