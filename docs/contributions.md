@@ -14,8 +14,7 @@ Each member records their own work with links (commits, issues, pull requests, r
 
 | Stage | What I did | Links |
 | --- | --- | --- |
-| Plan |Accepted the proposed slice (source import, tracking and duplicate checks, stories 2 and 5). Reviewed the plan and gave feedback on story 5: skip a re-import if the content is the same, and tell the person only when it changed. Opened an issue with that feedback.
-Links: https://github.com/mcbridgeee/is373-group-course-reference/issues/1
+| Plan | Accepted the proposed slice (source import, tracking and duplicate checks, stories 2 and 5). Reviewed the plan and gave feedback on story 5: skip a re-import if the content is the same, and tell the person only when it changed. Opened an issue with that feedback. | [Issue #1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1) |
 
 ## Dhruvi
 
