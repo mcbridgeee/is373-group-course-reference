@@ -4,9 +4,9 @@
 
 ## Changed / checked / next
 
-- **Changed (Plan, Nov 16):** proposed the course reference concept, sources, workflow, retrieval approach, stories and owner/reviewer split.
-- **Checked:** confirmed the five planned sources exist and are readable, and that the survival guide contains copyable commands with explanations (used for the trace below). Nothing has been built or run yet.
-- **Next:** all three members confirm or change the proposed decisions; ask a peer to follow the source trace and question one assumption; record it in the peer feedback log.
+- **Changed (Plan, Nov 15–17):** Bridget proposed the concept, sources, workflow, retrieval approach, stories and owner/reviewer split. Dhruvi's review ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) made E1, E2 and E5 measurable with a top-three rule and a no-match message. Ann's review ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) led to story 5 and E7 defining how a re-import detects unchanged content and what it reports. The Nov 17 source check corrected S02, S04 and S05.
+- **Checked (actually run):** the [source check on Nov 17](#source-check-run-on-nov-17-executed-not-planned) cloned or opened all five sources and confirmed the S01 text used in the trace. Every story and evaluation item is still `planned`; nothing has been built.
+- **Next:** an outside peer (from another team) follows the source trace and questions one assumption ([#3](https://github.com/mcbridgeee/is373-group-course-reference/issues/3)); all three members mark the decisions they agree to as `agreed` in the index; confirm sources and team size with Professor Williams; choose hosting before Build.
 
 ## Reader, problem and research question
 
@@ -123,7 +123,7 @@ Planned student questions, written before anything is built. Expected sources ar
 
 ## Owners and reviewers
 
-_Proposed; Ann and Dhruvi to confirm or change._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
+_Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); Dhruvi to confirm or change hers._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
 
 | Slice | Owner | Reviewer |
 | --- | --- | --- |
@@ -140,4 +140,5 @@ _Proposed; Ann and Dhruvi to confirm or change._ We are a team of three; the bri
 ## Help received
 
 - AI: Claude helped draft this plan's structure, compare approaches and check that the sources exist. The team reviews and owns the decisions.
-- People: none yet. A peer walkthrough of the source trace is planned for the Nov 17/19 workshop.
+- Teammates: Ann's review of story 5 ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) and Dhruvi's review of the evaluation set ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) each changed the plan.
+- Outside peer: not yet. A walkthrough of the source trace by someone from another team is planned for the Nov 17/19 workshop ([#3](https://github.com/mcbridgeee/is373-group-course-reference/issues/3)).
