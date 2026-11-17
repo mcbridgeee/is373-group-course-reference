@@ -103,11 +103,11 @@ Planned student questions, written before anything is built. Expected sources ar
 
 | # | Type | Student question | Expected entry / source | Expected behavior | Status |
 | --- | --- | --- | --- | --- | --- |
-| E1 | Exact term | `git commit -m` | Git commit entry · S01 §3 | Finds the entry by its exact command | planned |
-| E2 | Paraphrase | How do I save my changes with a message? | Git commit entry · S01 §3 | Finds the same entry with no shared command words; keyword search expected to miss it | planned |
+| E1 | Exact term | `git commit -m` | Git commit entry · S01 §3 | Run keyword and vector search. Record the expected entry’s rank for each, or record no match. Each method passes if the entry appears in its top three results. | planned |
+| E2 | Paraphrase | How do I save my changes with a message? | Git commit entry · S01 §3 | Run keyword and vector search. Record the expected entry’s rank for each, or record no match. Each method passes if the entry appears in its top three results. | planned |
 | E3 | Related terms | What does Traefik have to do with Docker? | Traefik glossary entry and its reviewed related-term link · S02 | Shows the Traefik entry and links to the Docker entry | planned |
 | E4 | Ordinary useful | What is chunking? | Chunking glossary entry · S05 | Plain-English meaning with a source link | planned |
-| E5 | Not covered | How do I deploy to AWS? | none | Says the course material doesn't cover it; doesn't invent an entry | planned |
+| E5 | Not covered | How do I deploy to AWS? | none | Passes if the UI shows “No matching entry in the course reference” and displays zero results. | planned |
 | E6 | Review gate | Search for a term whose entry is still a draft | none publicly | Draft does not appear until a reviewer approves it | planned |
 
 ## Owners and reviewers
