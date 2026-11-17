@@ -123,7 +123,7 @@ Planned student questions, written before anything is built. Expected sources ar
 
 ## Owners and reviewers
 
-_Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); Dhruvi to confirm or change hers._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
+_Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); Dhruvi accepted the AI drafting slice on Nov 17._ We are a team of three; the brief starts from pairs, so we will confirm the team size with Professor Williams. Each slice has an owner and a different reviewer, and the reviews rotate so everyone checks someone else's work.
 
 | Slice | Owner | Reviewer |
 | --- | --- | --- |

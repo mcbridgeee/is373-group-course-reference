@@ -23,7 +23,7 @@ This repository is our one shared record for Plan, Build, Checked Release and Im
 | Success criteria | [Criteria](docs/plan.md#success-criteria) | proposed | re-import criterion revised in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1) |
 | Stories and checks | [Stories](docs/plan.md#stories-and-checks) | proposed | story 5 revised in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); all checks planned |
 | Evaluation set | [Evaluation](docs/plan.md#evaluation-set) | proposed | E1, E2, E5 revised in [#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2); E7 added for [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); all planned |
-| Owners and reviewers | [Owners](docs/plan.md#owners-and-reviewers) | proposed | Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); Dhruvi to confirm |
+| Owners and reviewers | [Owners](docs/plan.md#owners-and-reviewers) | proposed | Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1); Dhruvi accepted the AI drafting slice on Nov 17. |
 | Each member's contribution | [Contributions](docs/contributions.md) | in progress | |
 
 ## Peer feedback log
