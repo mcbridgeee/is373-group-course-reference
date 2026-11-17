@@ -21,13 +21,23 @@ Course materials provided by the instructor for this course, used within the cou
 
 | ID | Source | URL | What we take from it | Date checked |
 | --- | --- | --- | --- | --- |
-| S01 | Linux, Vim, Git, Docker and Python Survival Guide | https://github.com/kaw393939/linux_vim_git_docker_python_survival_guide | Git workflow commands (issue → branch → commit → PR) | 2026-11-15 |
-| S02 | Server Studio (373_hosting) README | https://github.com/kaw393939/373_hosting | Docker, Traefik and HTTPS commands and terms | 2026-11-15 |
-| S03 | App Studio (is373-app-studio) README | https://github.com/kaw393939/is373-app-studio | FastAPI, virtual environment and test commands | 2026-11-15 |
-| S04 | IS373 Studio course site: overview and milestones | https://kaw393939.github.io/is373-studio/course/overview.html | Course terms: Plan, Build, Checked Release, project record | 2026-11-15 |
-| S05 | IS373 RAG student guides: embeddings, chunking | https://kaw393939.github.io/is373-rag/students/ | Technical terms: embedding, chunking, vector search, RAG | 2026-11-15 |
+| S01 | Linux, Vim, Git, Docker and Python Survival Guide (README) | https://github.com/kaw393939/linux_vim_git_docker_python_survival_guide | Git workflow commands (issue → branch → commit → PR) | 2026-11-17 |
+| S02 | Server Studio (373_hosting): README plus the `book/` chapters | https://github.com/kaw393939/373_hosting | Docker Compose, Traefik and HTTPS commands and terms (the commands are in `book/04-deploy.md`, `book/07-operations.md` and `book/10-application-delivery.md`, not the README) | 2026-11-17 |
+| S03 | App Studio (is373-app-studio) README | https://github.com/kaw393939/is373-app-studio | FastAPI, local Python and test/check commands (`python3 studio.py check` runs Black, Pylint and pytest) | 2026-11-17 |
+| S04 | IS373 Studio course site: overview, plus the linked milestone checklist | https://kaw393939.github.io/is373-studio/course/overview.html | Course terms: Plan, Build, Checked Release, Improve, project record (the overview names them; definitions come from the milestone checklist) | 2026-11-17 |
+| S05 | IS373 RAG student guides | https://kaw393939.github.io/is373-rag/students/ (redirects to keithwilliams.org/is373-rag/students/) | Technical terms from "Embeddings and similarity," "Chunking and source boundaries" and "Databases and retrieval" (closest guide to vector search) | 2026-11-17 |
 
-Each source keeps a stable ID, URL and the date we imported it. If a page changes, re-import updates its entries and sends them back to review.
+Each source keeps a stable ID, URL and the date we imported it. If a page changes, re-import sends only the changed sections' entries back to review (see story 5).
+
+### Source check run on Nov 17 (executed, not planned)
+
+| Source | What we checked | Result | Change it caused |
+| --- | --- | --- | --- |
+| S01 | Cloned the repo (commit `e863cbe`) and searched for the traced command | Found in README §3 "Issue → Branch → Pull Request," step 3: "Make focused commits. Stage only your task's files and reference the issue," followed by the `git commit -m` example | None; confirms the trace, and the "stage first" point the reviewer is meant to catch is in the source |
+| S02 | Cloned the repo (commit `0a149f0`) and searched for `docker compose` and Traefik | The README mentions Docker/Traefik only as prerequisites; the commands are in the `book/` chapters | Updated S02 to name the `book/` chapters, so import must cover more than the README |
+| S03 | Cloned the repo (commit `ced701d`) and read the README | FastAPI and the `studio.py check` command are there | Updated S03 wording to match what the README actually contains |
+| S04 | Opened the overview page | Page exists and names the four stages and the project record, but does not define them | Updated S04 to include the milestone checklist as the source of definitions |
+| S05 | Opened the student guides page | Page exists but redirects to keithwilliams.org; embeddings and chunking have their own guides, and vector search sits under "Databases and retrieval" | Recorded the redirect, because import must store the final URL so source links don't break |
 
 ## Observations vs. assumptions
 
@@ -69,7 +79,7 @@ course source (S0x, URL, date)
   → student searches or browses; every entry links back to its source
 ```
 
-**Trace (planned sketch, not executed):**
+**Trace (the source step was verified against S01 on Nov 17; every later step is a planned sketch, not executed):**
 
 | Step | One example |
 | --- | --- |
