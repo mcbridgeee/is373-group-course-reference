@@ -20,4 +20,4 @@ Each member records their own work with links (commits, issues, pull requests, r
 
 | Stage | What I did | Links |
 | --- | --- | --- |
-| Plan | | |
+| Plan | Reviewed the plan, opened issue #2 with feedback on search evaluation, and updated E1 and E2 to compare keyword and vector search using a top-three pass criterion. Defined the no-match message and zero-results requirement for E5. | [Issue #2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2) · [Evaluation set](plan.md#evaluation-set) · [Plan commit](https://github.com/mcbridgeee/is373-group-course-reference/commit/9f30238de88284b7b16599323ece57084253b7e4) |
