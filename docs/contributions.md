@@ -9,6 +9,7 @@ Each member records their own work with links (commits, issues, pull requests, r
 | Stage | What I did | Links |
 | --- | --- | --- |
 | Plan | Created the repository; drafted the concept, sources, two-approach comparison, retrieval choice, source trace, stories, evaluation set and proposed owner/reviewer split | [plan](plan.md) · [commits](https://github.com/mcbridgeee/is373-group-course-reference/commits/main/?author=mcbridgeee) |
+| Plan | Ran the Nov 17 source check on all five sources and corrected S02, S04 and S05; as reviewer of Ann's slice, revised story 5 and added E7 in response to her feedback; logged both teammate reviews and opened #3 for the outside peer walkthrough | [source check](plan.md#source-check-run-on-nov-17-executed-not-planned) · [#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1) · [#3](https://github.com/mcbridgeee/is373-group-course-reference/issues/3) · [peer log](../README.md#peer-feedback-log) |
 
 ## Ann
 
