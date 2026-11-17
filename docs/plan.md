@@ -4,7 +4,7 @@
 
 ## Changed / checked / next
 
-- **Changed (Plan, Nov 15–17):** Bridget proposed the concept, sources, workflow, retrieval approach, stories and owner/reviewer split. Dhruvi's review ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) made E1, E2 and E5 measurable with a top-three rule and a no-match message. Ann's review ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) led to story 5 and E7 defining how a re-import detects unchanged content and what it reports. The Nov 17 source check corrected S02, S04 and S05.
+- **Changed (Plan, Nov 15–17):** The first draft proposed the concept, sources, workflow, retrieval approach, stories and owner/reviewer split, and each member reviewed it. Dhruvi's review ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) made E1, E2 and E5 measurable with a top-three rule and a no-match message. Ann's review ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) led to story 5 and E7 defining how a re-import detects unchanged content and what it reports. The Nov 17 source check corrected S02, S04 and S05.
 - **Checked (actually run):** the [source check on Nov 17](#source-check-run-on-nov-17-executed-not-planned) cloned or opened all five sources and confirmed the S01 text used in the trace. Every story and evaluation item is still `planned`; nothing has been built.
 - **Next:** an outside peer (from another team) follows the source trace and questions one assumption ([#3](https://github.com/mcbridgeee/is373-group-course-reference/issues/3)); all three members mark the decisions they agree to as `agreed` in the index; confirm sources and team size with Professor Williams; choose hosting before Build.
 
