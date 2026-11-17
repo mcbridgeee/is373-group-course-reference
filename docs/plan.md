@@ -140,5 +140,5 @@ _Ann accepted her slice in [#1](https://github.com/mcbridgeee/is373-group-course
 ## Help received
 
 - AI: Claude helped draft this plan's structure, compare approaches and check that the sources exist. The team reviews and owns the decisions.
-- Teammates: Ann's review of story 5 ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) and Dhruvi's review of the evaluation set ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) each changed the plan.
+- Teammates: we discussed the plan in our team group chat. Ann's review of story 5 ([#1](https://github.com/mcbridgeee/is373-group-course-reference/issues/1)) and Dhruvi's review of the evaluation set ([#2](https://github.com/mcbridgeee/is373-group-course-reference/issues/2)) each changed the plan.
 - Outside peer: not yet. A walkthrough of the source trace by someone from another team is planned for the Nov 17/19 workshop ([#3](https://github.com/mcbridgeee/is373-group-course-reference/issues/3)).
